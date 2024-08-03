@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(209, 94, 0);
+}
+
+#nav{
+    background-color: #ffa500;
+    border-radius: 10px;
+}
+nav ul li a {
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #f1f1f1;
+}
+.mapa iframe{
+    width: 100%;
+    height: 250%;
+    box-shadow:  0 0 3px #999;
+    border-radius: 10px;
+}
